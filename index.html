@@ -1,13 +1,73 @@
 <!DOCTYPE html>
-<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="theme-color" content="#0a0907">
+<meta name="description" content="Oración devocional especial dedicada al Arcángel Miguel.">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
 <title>Capítulo Prohibido — Oración Sagrada</title>
 <style>
-:root{--g:#d5b354;--g2:#f6dfa0}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 50% -5%,#352913,#08090a 42%,#040505);color:#f5f0e5;font-family:Georgia,serif}.w{max-width:900px;margin:auto;padding:30px 18px 70px}.hero{text-align:center;padding:50px 10px 30px}.badge{font:700 11px Arial;letter-spacing:2px;color:var(--g2);border:1px solid #806a30;border-radius:30px;padding:8px 14px}.angel{font-size:62px;margin:22px 0 5px}.hero h1{font-size:clamp(40px,8vw,70px);line-height:1.02;margin:12px 0}.gold{color:var(--g2)}.hero p{font:16px/1.7 Arial;color:#c7c1b3;max-width:650px;margin:auto}.line{height:1px;background:linear-gradient(90deg,transparent,var(--g),transparent);margin:25px 0}.card{background:#111314;border:1px solid #3c321e;border-radius:18px;padding:28px;margin-top:20px}.card h2{color:var(--g2)}.text{font-size:18px;line-height:1.9;color:#eee;white-space:pre-line}.audio{margin-top:20px;display:flex;gap:10px;flex-wrap:wrap}.audio button{border:0;border-radius:10px;padding:12px 16px;font:700 12px Arial;cursor:pointer}.play{background:linear-gradient(135deg,var(--g2),var(--g));color:#111}.stop{background:#1c1d1e;color:var(--g2);border:1px solid #5c4d27!important}.note{text-align:center;color:#999;font:12px Arial;margin-top:30px}
-</style></head><body><div class="w"><section class="hero"><span class="badge">ORACIÓN DEVOCIONAL ESPECIAL</span><div class="angel">✦</div><h1>Capítulo <span class="gold">Prohibido</span></h1><p>Una oración especial dedicada al Arcángel Miguel para acompañar tus momentos de fe, reflexión y esperanza.</p></section><div class="line"></div>
-<section class="card"><h2>Antes de comenzar</h2><div class="text">Busca un lugar tranquilo. Respira lentamente y deja por unos minutos las preocupaciones del día a un lado.
+:root{--g:#d5b354;--g2:#f6dfa0}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(circle at 50% -5%,#352913,#08090a 42%,#040505);color:#f5f0e5;font-family:Georgia,serif}
+.w{max-width:900px;margin:auto;padding:30px 18px 70px}
+.hero{text-align:center;padding:50px 10px 30px}
+.badge{font:700 11px Arial;letter-spacing:2px;color:var(--g2);border:1px solid #806a30;border-radius:30px;padding:8px 14px}
+.angel{font-size:62px;margin:22px 0 5px}
+.hero h1{font-size:clamp(40px,8vw,70px);line-height:1.02;margin:12px 0}
+.gold{color:var(--g2)}
+.hero p{font:16px/1.7 Arial;color:#c7c1b3;max-width:650px;margin:auto}
+.line{height:1px;background:linear-gradient(90deg,transparent,var(--g),transparent);margin:25px 0}
+.card{background:#111314;border:1px solid #3c321e;border-radius:18px;padding:28px;margin-top:20px}
+.card h2{color:var(--g2)}
+.text{font-size:18px;line-height:1.9;color:#eee;white-space:pre-line}
+.audio{margin-top:20px;display:flex;gap:10px;flex-wrap:wrap}
+.audio button,.install-btn{border:0;border-radius:10px;padding:12px 16px;font:700 12px Arial;cursor:pointer}
+.play,.install-btn{background:linear-gradient(135deg,var(--g2),var(--g));color:#111}
+.stop{background:#1c1d1e;color:var(--g2);border:1px solid #5c4d27!important}
+.install-box{display:none;margin:22px 0 5px;padding:22px;border:1px solid #5c4d27;border-radius:18px;background:linear-gradient(180deg,#17130b,#0e0f10);text-align:center}
+.install-box.show{display:block}
+.install-box strong{display:block;color:var(--g2);font-size:20px;margin-bottom:8px}
+.install-box p{font:14px/1.6 Arial;color:#c7c1b3;margin:0 0 15px}
+.install-btn{font-size:13px;padding:13px 20px}
+.ios-help{display:none;font:12px/1.6 Arial;color:#aaa;margin-top:12px}
+.note{text-align:center;color:#999;font:12px Arial;margin-top:30px}
+</style>
+</head>
+<body>
+<div class="w">
+<section class="hero">
+<span class="badge">ORACIÓN DEVOCIONAL ESPECIAL</span>
+<div class="angel">✦</div>
+<h1>Capítulo <span class="gold">Prohibido</span></h1>
+<p>Una oración especial dedicada al Arcángel Miguel para acompañar tus momentos de fe, reflexión y esperanza.</p>
+</section>
 
-Lee esta oración con calma y úsala como un momento personal de fe y reflexión.</div><div class="audio"><button class="play" onclick="speak()">▶ Escuchar la oración</button><button class="stop" onclick="stop()">■ Detener</button></div></section>
-<section class="card"><h2>Oración al Arcángel Miguel</h2><div class="text" id="txt">San Miguel Arcángel, acompáñame en este momento de oración.
+<div class="line"></div>
+
+<div class="install-box" id="installBox">
+<strong>✦ Instala tu aplicación</strong>
+<p>Ten esta oración siempre contigo y accede rápidamente desde la pantalla de inicio de tu celular.</p>
+<button class="install-btn" id="installBtn">INSTALAR APLICACIÓN</button>
+<div class="ios-help" id="iosHelp">En iPhone: toca el botón <b>Compartir</b> de Safari y selecciona <b>“Añadir a pantalla de inicio”</b>.</div>
+</div>
+
+<section class="card">
+<h2>Antes de comenzar</h2>
+<div class="text">Busca un lugar tranquilo. Respira lentamente y deja por unos minutos las preocupaciones del día a un lado.
+
+Lee esta oración con calma y úsala como un momento personal de fe y reflexión.</div>
+<div class="audio">
+<button class="play" onclick="speak()">▶ Escuchar la oración</button>
+<button class="stop" onclick="stop()">■ Detener</button>
+</div>
+</section>
+
+<section class="card">
+<h2>Oración al Arcángel Miguel</h2>
+<div class="text" id="txt">San Miguel Arcángel, acompáñame en este momento de oración.
 
 Dame valor para enfrentar aquello que me preocupa, claridad para tomar buenas decisiones y serenidad para no perder la esperanza.
 
@@ -23,6 +83,78 @@ Entrego ante Dios mis preocupaciones y mis deseos, confiando en que encontraré 
 
 San Miguel Arcángel, acompáñame, fortaléceme y ayúdame a caminar con fe, prudencia y esperanza.
 
-Amén.</div><div class="audio"><button class="play" onclick="speak()">▶ Escuchar la oración</button><button class="stop" onclick="stop()">■ Detener</button></div></section>
-<div class="note">Contenido espiritual y devocional. No constituye una promesa de resultados sobrenaturales ni sustituye atención profesional cuando sea necesaria.</div></div>
-<script>let u=null;function speak(){stop();u=new SpeechSynthesisUtterance(document.getElementById('txt').textContent);u.lang='es-ES';u.rate=.88;speechSynthesis.speak(u)}function stop(){speechSynthesis.cancel();u=null}</script></body></html>
+Amén.</div>
+<div class="audio">
+<button class="play" onclick="speak()">▶ Escuchar la oración</button>
+<button class="stop" onclick="stop()">■ Detener</button>
+</div>
+</section>
+
+<div class="note">Contenido espiritual y devocional. No constituye una promesa de resultados sobrenaturales ni sustituye atención profesional cuando sea necesaria.</div>
+</div>
+
+<script>
+let u=null;
+function speak(){
+  stop();
+  u=new SpeechSynthesisUtterance(document.getElementById('txt').textContent);
+  u.lang='es-ES';
+  u.rate=.88;
+  speechSynthesis.speak(u);
+}
+function stop(){speechSynthesis.cancel();u=null}
+
+let deferredPrompt=null;
+const installBox=document.getElementById('installBox');
+const installBtn=document.getElementById('installBtn');
+const iosHelp=document.getElementById('iosHelp');
+
+function isIOS(){
+  return /iphone|ipad|ipod/i.test(navigator.userAgent);
+}
+function isStandalone(){
+  return window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+}
+
+if(!isStandalone()){
+  // Captura o prompt assim que o navegador o disponibilizar.
+  window.addEventListener('beforeinstallprompt',(e)=>{
+    e.preventDefault();
+    deferredPrompt=e;
+
+    // Só mostra o convite depois de 7 segundos.
+    setTimeout(()=>{
+      installBox.classList.add('show');
+    },7000);
+  });
+
+  // No iPhone não existe o prompt nativo: mostramos a instrução após 7 segundos.
+  if(isIOS()){
+    setTimeout(()=>{
+      installBox.classList.add('show');
+      iosHelp.style.display='block';
+      installBtn.style.display='none';
+    },7000);
+  }
+}
+
+installBtn.addEventListener('click',async()=>{
+  if(!deferredPrompt) return;
+  deferredPrompt.prompt();
+  await deferredPrompt.userChoice;
+  deferredPrompt=null;
+  installBox.classList.remove('show');
+});
+
+window.addEventListener('appinstalled',()=>{
+  installBox.classList.remove('show');
+});
+
+if('serviceWorker' in navigator){
+  window.addEventListener('load',()=>{
+    navigator.serviceWorker.register('./service-worker.js').catch(console.error);
+  });
+}
+</script>
+</body>
+</html>
