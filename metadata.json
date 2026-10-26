@@ -1,6 +1,0 @@
-{
-  "name": "El Capítulo Prohibido - Oraciones de los 3 Arcángeles",
-  "description": "WebApp oficial do Capítulo Proibido do Padre Juan Bautista. Orações guiadas na Ordem Divina (Rafael, Gabriel, Miguel), Ritual da Água Sagrada, Jornada diária e Diário de Milagres.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
